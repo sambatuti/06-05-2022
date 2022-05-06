@@ -1,0 +1,9 @@
+student={1:['56','SAMBA SIVA RAO','MALE','BCA(Bachelor of computer application)','90']}
+print('Student Database:-')
+x=int(input('enter the student no:'))
+print('Roll.no of the student:',student[x][0])
+print('Name of the student:',student[x][1])
+print('Gender:',student[x][2])
+print('Group:',student[x][3])
+print('Result:',student[x][4])
+print('THESE ARE THE AVAILABLE DETAILS OF THE STUDENT')
